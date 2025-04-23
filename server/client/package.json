@@ -9,6 +9,7 @@
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.7",
+    "miniproject": "file:../..",
     "moment": "^2.30.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.3.0",
