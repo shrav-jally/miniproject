@@ -1,2 +1,4 @@
 ./frontend/nodemodules
 ./backend/node_modules
+/node_modules
+server/client/build
