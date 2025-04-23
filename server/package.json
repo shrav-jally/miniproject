@@ -5,7 +5,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "node app.js"
+    "server": "node app.js",
+
+    // Added build scripts for client
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
