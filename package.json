@@ -2,10 +2,10 @@
     "name": "miniproject",
     "version": "1.0.0",
     "scripts": {
-      "start": "npm run start --prefix backend",
-      "build": "npm run build --prefix frontend && npm run build --prefix backend",
-      "heroku-postbuild": "npm run build",
-      "deploy": "npm run build && npm run start"
+      "build": "npm run build --prefix server",
+      "start": "npm run start --prefix server",
+      "heroku-postbuild": "npm run build --prefix server"
     }
   }
+  
   
